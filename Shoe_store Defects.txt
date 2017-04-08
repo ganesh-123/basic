@@ -1,0 +1,33 @@
+A. Summary: Upcoming months - Submit email reminder below the shoe item accepts invalid email address
+
+Steps to reproduce:
+
+1. Lauch any web browser
+2. Load https://rb-shoe-store.herokuapp.com/months/may
+3. Scroll down and enter some invalid email address in the 'Email address' box say "test@gmail" below the shoe item and click on 'Submit' button
+4. Observe that "Thanks! We will notify you when this shoe is available at this email: test@gmail" successful message is displayed on the top for invalid email - Not Expected
+
+B. Summary: Notify Email address box - No background colour for validation messages for Email address boxes below the shoe items
+
+Steps to reproduce:
+
+1. Lauch any web browser
+2. Load https://rb-shoe-store.herokuapp.com/months/may
+3. Scroll down and enter some valid email address in the 'Email address' box say "test@gmail.com" below the shoe item and click on 'Submit' button
+4. Observe that "Thanks! We will notify you when this shoe is available at this email: test@gmail.com" successful message is displayed without green background colour - Not Expected
+
+C. Summary: Shoe images are missing below the shoe content in the November month
+
+Steps to reproduce:
+
+1. Lauch any web browser
+2. Load https://rb-shoe-store.herokuapp.com/months/november
+3. Scroll and observe that shoe images are missing below the shoe content - Not Expected
+
+D. Summary: Shoe Description - There is no enough spacing between 'Description' label and 'Description summary' for shoe content in respective month pages
+
+Steps to reproduce:
+
+1. Lauch any web browser
+2. Load https://rb-shoe-store.herokuapp.com/months/january
+3. Scroll and observe that there is no enough spacing between 'Description' label and 'Description summary' for shoe content - Not Expected
